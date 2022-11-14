@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,21 +8,46 @@
     <title>day-1-form</title>
     <link rel="stylesheet" href="/css/styles.css">
 </head>
+
 <body>
     <h1>My Beautiful Form</h1>
     <div class="form-container">
-        <form id="beautiful-form">
+        <form id="beautiful-form" action="/result.html">
             <input type="text" name="first-name" placeholder="Нэр">
-        </form>
-        <form id="beautiful-form">
+
             <input type="text" name="surname" placeholder="Овог">
-        </form>
-        <form id="beautiful-form">
+
             <input type="number" name="phone-number" placeholder="Утас">
-        </form>
-        <form id="beautiful-form">
+
             <input type="email" name="email" placeholder="И-Мейл">
+
+            <input type="password" name="password" placeholder="Нууц үг">
+
+            <input type="password" name="confirm-password" placeholder="Нууц үг давтах">
+
+            <div>
+                <input type="radio" name="gender">
+                <label for="gender">Эрэгтэй</label>
+            </div>
+            <div>
+                <input type="radio" name="gender">
+                <label for="gender">Эмэгтэй</label>
+            </div>
+
+            <input type="date" name="birth-date" placeholder="Төрсөн өдөр">
+
+            <input type="time" name="birth-date-time" placeholder="Төрсөн өдөр">
+
+            <select name="" id="">
+                <option value="">Mongolia</option>
+                <option value="">Foreign</option>
+                <option value="">Allien</option>
+            </select>
+            <textarea name="address" id="" cols="20" rows="5" placeholder="Хаяг"></textarea>
+
+            <input type="submit" value="Submit">
         </form>
     </div>
 </body>
+
 </html>
